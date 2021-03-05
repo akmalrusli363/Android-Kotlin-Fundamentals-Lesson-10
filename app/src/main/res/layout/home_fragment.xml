@@ -45,6 +45,7 @@
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:scaleType="centerCrop"
+                    android:contentDescription="@string/stage_image_description"
                     app:layout_constraintDimensionRatio="4:3"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -58,8 +59,6 @@
                     android:layout_marginTop="@dimen/spacing_normal"
                     android:text="@string/about_google_developer_groups"
                     android:textAppearance="?attr/textAppearanceHeadline5"
-                    android:textColor="#FF555555"
-                    android:textSize="24sp"
                     app:layout_constraintEnd_toStartOf="@+id/end_guideline"
                     app:layout_constraintStart_toStartOf="@+id/start_guideline"
                     app:layout_constraintTop_toBottomOf="@id/image" />
@@ -81,8 +80,6 @@
                     android:layout_marginTop="13dp"
                     android:text="@string/gdgs_are"
                     android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textColor="#555555"
-                    android:textSize="18sp"
                     app:layout_constraintEnd_toStartOf="@id/end_guideline"
                     app:layout_constraintStart_toEndOf="@id/start_guideline"
                     app:layout_constraintTop_toBottomOf="@+id/intro_text" />
